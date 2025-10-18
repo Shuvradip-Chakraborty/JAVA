@@ -9,16 +9,20 @@ class Human {
     public int getAge(){
         return age;
     }
+
+    //we can also use a methods to set the data..
+    public void setAge(int age){      
+        // age = a;        //here "a" is local variable & "age" is instance variable..
+        this.age = age;
+    }
+
     public String getName(){
         return name;
     }
 
     //we can also use a methods to set the data..
-    public void setAge(int a){
-        age = a;
-    }
-    public void setName(String n){
-        name = n;
+    public void setName(String name){
+        this.name = name;   //this refers to the cuurent object...
     }
 }
 
