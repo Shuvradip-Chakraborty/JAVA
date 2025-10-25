@@ -1,5 +1,5 @@
 
-/* Abstract method only belongs to Abstrat class
+/* Abstract method only belongs to Abstract class
  * We can't create object of the Abstract class.
  * It's not necessary to have only the abstract method, it aslo have normal and also have abstract method..
  * abstract method must be implemented in the subclass.
